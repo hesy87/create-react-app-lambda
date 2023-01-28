@@ -1,0 +1,16 @@
+contact us
+
+telephone number:
+fa-light fa-phone
+
+fax:
+fa-light fa-fax
+
+E-mail:
+fa-light fa-envelope
+
+location:
+fa-light fa-location-dot
+
+navbar drop-down menu triangle:
+fa-solid fa-caret-down

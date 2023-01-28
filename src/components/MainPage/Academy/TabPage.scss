@@ -1,0 +1,17 @@
+@import '../../../utility/requirements.scss';
+
+@font-face {
+    font-family: "IRANSANSMedium";
+    src: url('../../../assets/fonts/woff2/IRANSansWeb_Medium.woff2');
+  }
+
+.text {
+    color :$textColor;
+}
+.borderSet {
+  border-end-end-radius: 8px;
+  border-end-start-radius: 8px;
+  border-start-end-radius: 8px;
+  border: 2px solid $selectedBorder;
+  border-top: none !important;
+}

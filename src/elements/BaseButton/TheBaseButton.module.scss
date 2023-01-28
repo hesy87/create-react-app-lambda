@@ -1,0 +1,17 @@
+@import '../../utility/requirements.scss';
+
+@font-face {
+    font-family: "IRANSANSMedium";
+    src: url('../../assets/fonts/woff2/IRANSansWeb_Medium.woff2');
+  }
+
+.moreButton {
+    font-family: "IRANSANSMedium" !important;
+    background: $colorButtonDefault;
+    color: white !important;
+    padding: 10px 15px !important;
+    &:hover {
+        background: #172642 !important;
+        transition: all 0.2s ease-in-out;
+    }
+}

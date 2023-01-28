@@ -1,0 +1,11 @@
+subject:
+IRANsans medium
+
+explanation of the subject:
+IRANsans medium
+
+regular text:
+IRANsans regular
+
+navbar options:
+IRANsans medium

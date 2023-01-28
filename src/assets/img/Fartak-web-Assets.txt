@@ -1,0 +1,28 @@
+background:
+linear gradient
+#E5F0FF to #FFFFFF
+
+text:
+#172642
+
+buttons:
+default #243C68
+hover #172642
+
+navbar:
+#FFFFFF
+bottem border #E5F0FF 
+
+navbar-drop down menu:
+#FFFFFF
+border #E5F0FF 
+hover #E5F0FF
+
+carousel:
+controls #C8D9F1
+indicator selected #172642
+indicator default #C8D9F1
+
+academy thing on the main page:
+selected border #243C68
+default border #C8D9F1

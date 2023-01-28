@@ -1,0 +1,81 @@
+@import "../../../utility/requirements.scss";
+
+@font-face {
+  font-family: "IRANSANSMedium";
+  src: url("../../../assets/fonts/woff2/IRANSansWeb_Medium.woff2");
+}
+
+.text {
+  color: $textColor;
+}
+
+ .nav-link.active
+ {
+  color: $textColor !important;
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  border: 2px solid $selectedBorder;
+  border-bottom: 0 !important;
+  height: 4.3rem !important;
+  border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.nav-tabs {
+  border-bottom: var(--bs-nav-tabs-border-width) solid $selectedBorder;
+  margin-bottom: 0 !important;
+  width: 99.4%;
+}
+
+.nav-tabs > li {
+  & > button {
+    color: $textColor;
+    height: 4rem;
+    width: 12rem;
+    border: 1px solid $defaultCorder !important;
+    margin-left: 0.3rem !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 770px) {
+  .nav-tabs > li {
+    & > button {
+      color: $textColor;
+      height: 5.5rem;
+      width:6.3rem;
+      font-size: 0.8rem !important;
+    }
+  }
+  .nav-tabs {
+    width: 98.5%;
+  }
+  .nav-link.active
+  {
+   height: 6rem !important;
+ }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  .nav-tabs > li {
+    & > button {
+      color: $textColor;
+      height: 5.5rem;
+      width:10rem;
+      font-size: 1rem !important;
+    }
+  }
+  .nav-tabs {
+    width: 99%;
+  }
+  .nav-link.active
+  {
+   height: 6rem !important;
+ }
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  isolation: isolate;
+  border-color: transparent;
+}

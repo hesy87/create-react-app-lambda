@@ -1,0 +1,52 @@
+@import '../../utility/requirements.scss';
+
+@font-face {
+    font-family: "IRANSANSMedium";
+    src: url('../../assets/fonts/woff2/IRANSansWeb_Medium.woff2');
+  }
+
+.logo {
+    width: 3.5rem;
+    object-fit: cover;
+}
+
+.nav-link2 {
+    white-space: nowrap;
+    display: block;
+    margin-left: 1rem;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color:$textColor;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    &:hover {
+        color:$colorButtonDefault 
+    }
+}
+
+.navSet {
+    margin-right: 70%;
+}
+
+.NavBorder {
+    border-bottom: 2px solid $colorBorderBottom;
+    position: sticky;
+    top: 0;
+    z-index: 9999 !important;
+}
+
+.NavBorderOnScroll {
+    border-bottom: 2px solid $colorBorderBottom;
+    position: sticky;
+    top: 0;
+    z-index: 9999 !important;
+    background: $colorNavbar;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {box-shadow: none;}

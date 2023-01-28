@@ -1,0 +1,12 @@
+@import '../../utility/requirements.scss';
+
+@font-face {
+    font-family: "IRANSANSMedium";
+    src: url('../../assets/fonts/woff2/IRANSansWeb_Medium.woff2');
+  }
+
+.titles {
+    color: $textColor;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

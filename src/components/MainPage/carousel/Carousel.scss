@@ -1,0 +1,83 @@
+@import "../../../utility/requirements.scss";
+
+@font-face {
+  font-family: "IRANSANSMedium";
+  src: url("../../../assets/fonts/woff2/IRANSansWeb_Medium.woff2");
+}
+
+.text {
+  color: $textColor;
+}
+.carouselControl {
+  color: $carouselControls;
+}
+
+.caption {
+  position: absolute;
+  top: 40% !important;
+  & p {
+    width: 50%;
+    align-self: center;
+  }
+  & p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 86% !important;
+}
+
+.carousel-control-next {
+  right: 35% !important;
+}
+
+.carousel-control-prev {
+  left: 35% !important;
+}
+
+.carousel-indicators {
+  right: 30% !important;
+  width: 10%;
+}
+
+@media (min-width: 0px) and (max-width: 770px) {
+  .caption {
+    top: 0 !important;
+    font-size: 0.7rem;
+    & p:nth-child(1) {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 61% !important;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  .caption {
+    top: 0 !important;
+    font-size: 1rem;
+    & p:nth-child(1) {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  top: 75% !important;
+}
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: $carouselControls;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.carousel-indicators .active {
+  background-color: $indicatorSelected;
+}
